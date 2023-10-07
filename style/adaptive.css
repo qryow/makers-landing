@@ -1,0 +1,478 @@
+@media screen and (max-width: 1340px) {
+  .container_expectation img {
+    width: 520px;
+  }
+}
+@media screen and (max-width: 1318px) {
+  .stats_block {
+    gap: 30px;
+  }
+  .stats_item {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1275px) {
+  .programmer_left {
+    width: 58%;
+  }
+}
+
+@media screen and (max-width: 1204px) {
+  .conatiner_main {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main_right_block {
+    width: 50%;
+  }
+  .main_right_block img {
+    width: 100%;
+  }
+  .container_expectation img {
+    width: 518px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .advertising_header_wrapper p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .container_stats {
+    padding: 50px 30px;
+  }
+  .container_expectation img {
+    width: 518px;
+    height: auto;
+  }
+  .container_expectation {
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .container_expectation img {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 1109px) {
+  .programmer_right svg {
+    transform: scaleY(150%);
+    top: 78px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .stats_block {
+    gap: 10px;
+  }
+  .stats_item {
+    width: 100%;
+  }
+  .advertising_header_wrapper p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .stats_block {
+    align-items: flex-start;
+  }
+  .stats_item {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+  .stats_block hr {
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 956px) {
+  .programmer_right svg {
+    transform: scaleY(160%);
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 918px) {
+  .discount_container {
+    padding: 23px 32px 45px 32px;
+  }
+  .discount_checkbox {
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .programmer_right svg {
+    transform: scaleY(170%);
+    top: 120px;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .conatiner_main {
+    flex-direction: column;
+  }
+  .main_left_block {
+    text-align: center;
+    max-width: 100%;
+  }
+  .main_right_block {
+    width: 65%;
+  }
+  .stats_block {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .stats_block hr {
+    height: 1px;
+    width: 100%;
+  }
+  .facts_item_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .facts_item {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+  }
+  .container_expectation {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container_expectation img {
+    width: 75%;
+  }
+  .expectation_content_wrapper {
+    margin-top: 32px;
+    width: 100%;
+    align-items: center;
+  }
+  .expectation_content_wrapper h2 {
+    text-align: left;
+    align-self: flex-start;
+  }
+  .programmer_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .programmer_left {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .programmer_left_content_wrapper {
+    width: 100%;
+    text-align: center;
+  }
+  .programmer_right {
+    width: 55%;
+    align-items: center;
+  }
+  .programmer_right svg {
+    transform: scaleY(125%);
+    top: 80px;
+  }
+  .format_container {
+    flex-direction: column;
+  }
+  .programmer_left_content_wrapper button {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .advertising_header .advertising_header_item button {
+    padding: 14px 25px;
+    font-size: 12px;
+  }
+  .advertising_header_wrapper p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 828px) {
+  .discount_container {
+    height: auto;
+  }
+  .lightning-2 {
+    top: 68px;
+  }
+}
+
+@media screen and (max-width: 726px) {
+  .discount_container {
+    overflow: hidden;
+    padding: 40px 32px 100px;
+  }
+  .lightning-2 {
+    top: 202px;
+  }
+  .sphere {
+    left: -30px;
+    bottom: -40px;
+  }
+  .percent {
+    top: 285px;
+  }
+  .phone_number span {
+    font-size: 12px;
+  }
+  .footer_right p {
+    font-size: 12px;
+  }
+  .footer_left {
+    margin-top: -19px;
+  }
+  .footer_left span {
+    font-size: 12px;
+  }
+  .form_inputs {
+    flex-direction: column;
+  }
+
+  .programmer_right svg {
+    transform: scaleY(135%);
+  }
+}
+
+@media screen and (max-width: 658px) {
+  .facts_item_wrapper {
+    align-items: flex-start;
+  }
+  .facts_item {
+    text-align: start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .facts_item {
+    width: 100%;
+  }
+  .advertising_header_wrapper {
+    flex-direction: column;
+    gap: 15px;
+    padding: 32px 0;
+  }
+  .advertising_header {
+    overflow: hidden;
+    position: relative;
+  }
+  .advertising_header_wrapper p:first-child {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .advertising_header_wrapper p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .advertising_header .advertising_header_item img {
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+  }
+  .advertising_header_item {
+    width: 35%;
+  }
+  .advertising_header_item button {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .container_expectation img {
+    width: 100%;
+  }
+  .main_right_block {
+    width: 100%;
+  }
+  .main_left_block {
+    text-align: start;
+  }
+  .main_left_block h1 {
+    margin-bottom: 12px;
+    font-size: 32px;
+  }
+  main {
+    margin-top: 70px;
+  }
+  .stats_item {
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: start;
+  }
+  .default_header {
+    display: none;
+  }
+  .adaptive_header {
+    display: block;
+  }
+  .expectation_content_wrapper ul li img {
+    margin-right: 14px;
+  }
+  .adaptive_button {
+    display: block;
+    margin-top: 32px;
+    width: 100%;
+  }
+  .default_button {
+    display: none;
+  }
+  .programmer_right {
+    width: 100%;
+  }
+  .programmer_right svg {
+    transform: scaleY(122%);
+  }
+
+  .programmer_right li {
+    width: 100%;
+  }
+  .lightning-2 {
+    top: 270px;
+  }
+  footer {
+    padding: 24px 0 43px;
+    height: auto;
+  }
+  .footer_container {
+    flex-direction: column;
+  }
+  .adaptive_footer_span {
+    display: block;
+    font-size: 16px;
+    margin-top: 32px;
+  }
+  .phone_number span {
+    font-size: 16px;
+  }
+  .footer_right p {
+    font-size: 16px;
+  }
+  .default_span_footer {
+    display: none;
+  }
+  .nav_item_wrapper {
+    gap: 0;
+    width: 55%;
+    justify-content: space-between;
+  }
+  .advertising_header .advertising_header_item img {
+    width: 79px;
+    height: 79px;
+  }
+  .programmer_left {
+    align-items: flex-start;
+  }
+  .programmer_left h2 {
+    text-align: start;
+  }
+  .programmer_left_content_wrapper p {
+    text-align: start;
+  }
+  .form_inputs button,
+  .adaptive_discount_button {
+    height: 40px;
+    margin-top: 32px;
+  }
+  .default_discount_button {
+    display: none;
+  }
+  .adaptive_discount_button {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .bg_sphere {
+    width: 255px;
+    height: 303px;
+    right: 10px;
+    left: auto;
+    top: 40px;
+  }
+  .lightning-2 {
+    top: 292px;
+  }
+  .stats_item h2 {
+    font-size: 40px;
+  }
+  .container_facts h2 {
+    font-size: 24px;
+  }
+  .facts_item_header h3 {
+    font-size: 20px;
+  }
+  .facts_item_header img {
+    min-width: 42px;
+    min-height: 42px;
+  }
+  .expectation_content_wrapper h2 {
+    font-size: 24px;
+  }
+  .expectation_content_wrapper ul li span {
+    font-size: 20px;
+  }
+  .programmer_left h2 {
+    font-size: 24px;
+  }
+  .programmer_left_content_wrapper p {
+    font-size: 16px;
+  }
+  .discount_content h2 {
+    font-size: 24px;
+  }
+  .discount_checkbox input[type="checkbox"] {
+    margin-top: 3px;
+  }
+  .discount_checkbox label {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .container_nav ul button {
+    padding: 7px 18px;
+  }
+  .container {
+    width: 93%;
+  }
+}
+
+@media screen and (max-width: 443px) {
+  .programmer_right svg {
+    transform: scaleY(143%);
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .container_nav img {
+    width: 30%;
+  }
+  .nav_item_wrapper {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .lightning-2 {
+    top: 325px;
+  }
+}
+
+@media screen and (max-width: 328px) {
+  .lightning-2 {
+    top: 355px;
+  }
+}
