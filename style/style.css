@@ -799,11 +799,15 @@ footer {
 .net_link {
   display: flex;
   gap: 12px;
+  cursor: pointer;
 }
 .net_link img {
   width: 24px;
   height: 24px;
   cursor: pointer;
+}
+.net_link svg {
+  width: 40%;
 }
 
 /* footer end */
