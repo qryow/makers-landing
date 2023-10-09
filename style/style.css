@@ -418,11 +418,13 @@ main {
 .facts_item {
   display: flex;
   flex-direction: column;
+  height: 193px;
+  justify-content: space-between;
   gap: 27px;
 }
 .facts_item_header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 14px;
 }
 
@@ -434,6 +436,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-self: flex-start;
   border-radius: 18px;
 }
 /* facts end */
@@ -802,8 +805,8 @@ footer {
   cursor: pointer;
 }
 .net_link img {
-  width: 24px;
-  height: 24px;
+  width: 120px;
+  height: auto;
   cursor: pointer;
 }
 .net_link svg {
