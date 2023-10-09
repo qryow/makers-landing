@@ -5,10 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Makers | Belajar Coding Untuk Pemula</title>
+    <meta
+      content="Belajar coding cukup 1 jutaan/bulan. Termasuk program magang/intership. Yuk, daftar sekarang!"
+      name="description"
+    />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/adaptive.css" />
   </head>
   <body>
+    <!-- modal start -->
+    <div class="overlay"></div>
+    <div class="modal">
+      <svg
+        class="modal_close_icon"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4.16602 4.16675L15.8327 15.8334M4.16604 15.8334L9.99937 10.0001L15.8327 4.16675"
+          stroke="#1B1C1F"
+          stroke-linecap="round"
+        />
+      </svg>
+
+      <img class="modal_logo" src="./assets/logo/logo.svg" alt="Makers logo" />
+      <h2>Получите консультацию по обучению в Инкубаторе</h2>
+
+      <form action="" class="modal_form">
+        <input required name="name" type="text" placeholder="Ваше имя" />
+        <input
+          required
+          name="phone"
+          type="text"
+          placeholder="+62 81 245 555 555"
+        />
+        <div class="modal_checkbox">
+          <input required id="modal-checkbox" type="checkbox" />
+          <label for="modal-checkbox">
+            Нажимая кнопку «Отправить», я даю согласие на обработку своих
+            персональных данных
+          </label>
+        </div>
+        <button>Konsultasi, yuk!</button>
+      </form>
+    </div>
+    <!-- modal end -->
     <!-- advertising_header start -->
     <!-- <section class="advertising_header">
       <div class="advertising_header_wrapper">
@@ -24,7 +68,7 @@
 
     <!-- navbar start -->
     <div class="wrapper">
-      <nav>
+      <nav id="nav">
         <div class="container container_nav">
           <img src="./assets/logo/logo.svg" alt="Logo" />
           <!-- <ul class="nav_item_wrapper">
@@ -44,8 +88,8 @@
 
           <div class="main_left_block">
             <h1>
-              Belajar coding 5 hari minggu - 3 <br />
-              <span> jam per hari dari dasar hingga dapat kerja </span>
+              Belajar coding 5 hari minggu <br />
+              <span> 3 jam per hari dari dasar hingga dapat kerja </span>
             </h1>
             <br />
             <br />
@@ -56,7 +100,7 @@
               <br />
               Ingin tahu lebih banyak tentang kursus coding?
             </p>
-            <button>Hubungi kami</button>
+            <button class="main_button">Hubungi kami</button>
           </div>
           <div class="main_right_block">
             <img src="./assets/humanPick/main_pic.png" alt="Human picture" />
@@ -95,8 +139,9 @@
               <h3>Dukungan penuh hingga dapat pekerjaan</h3>
             </div>
             <p class="facts_item_content">
-              Изучение программирования с нуля в 2 раза быстрее чем на других
-              курсах. Мы - самые выгодные среди всех курсов в Бишкеке!
+              Setelah selesai pelatihan, kamu akan ditawari magang online,
+              dimana kamu dapat pengalaman bekerja dalam tim dan mendapat surat
+              rekomendasi dari perusahaan IT
             </p>
           </div>
           <div class="facts_item">
@@ -105,9 +150,9 @@
               <h3>Pemandu khusus dan tim mentor</h3>
             </div>
             <p class="facts_item_content">
-              Онлайн-стажировка после курса. Стажировка была утверждена
-              реальными IT компаниями. Работа над проектами как в реальных IT
-              компаниях.
+              Kamu akan dibimbing oleh kepala pengajar dan asisten pengajar.
+              Selain itu, akan ada pemandu yang akan memonitor tingkat
+              kedisiplinanmu. Kamu tidak akan kebingungan selama proses belajar.
             </p>
           </div>
           <div class="facts_item">
@@ -118,8 +163,9 @@
               </h3>
             </div>
             <p class="facts_item_content">
-              Легкий доступ к компаниям.Твое портфолио увидят десятки компаний.
-              Мы тебя свяжем с компаниями и поможем обустроиться в работе.
+              Kami telah mempersiapkan platform khusus dimana kamu akan
+              benar-benar melaksanakan proyek nyata bersama tim, seperti bekerja
+              di perusahaan sungguhan.
             </p>
           </div>
         </div>
@@ -156,8 +202,12 @@
             <span>kursus:</span>
           </h2>
           <div class="programmer_left_content_wrapper">
-            <p>У тебя будет личный менеджер на каждом из этих этапов. </p>
-            <button class="default_button">Получить консультацию</button>
+            <p>
+              Kamu akan mendapat pemandu khusus untuk tiap tahap pembelajaran  
+            </p>
+            <button class="default_button programmer_btn">
+              Konsultasi, yuk!
+            </button>
           </div>
         </div>
         <ul class="programmer_right">
@@ -182,8 +232,8 @@
             <div class="programmer_item_content programmer_item_right_border">
               <h3>Belajar dasar-dasar pemrograman</h3>
               <p>
-                Определим направление, что изучать и построим путь с чего
-                начать.
+                Pembelajaran penuh bersama pengajar dan pemandu personal yang
+                profesional
               </p>
             </div>
           </li>
@@ -191,20 +241,14 @@
             <h4>02</h4>
             <div class="programmer_item_content programmer_item_right_border">
               <h3>Pelatihan mendalam dan proyek individu</h3>
-              <p>
-                Будете уметь делать проекты. Обучение при полной поддержки от
-                ментора и от личного менеджера.
-              </p>
+              <p>Sesi interaktif dan praktek membuat proyek IT</p>
             </div>
           </li>
           <li>
             <h4>03</h4>
             <div class="programmer_item_content programmer_item_right_border">
               <h3>Proyek akhir</h3>
-              <p>
-                Обязательная практика на реальных проектах для выпускников после
-                bootcamp.
-              </p>
+              <p>Proyek akhir dalam tim bersama peserta bootcamp yang lain</p>
             </div>
           </li>
           <li>
@@ -212,13 +256,15 @@
             <div class="programmer_item_content">
               <h3>Simulasi kerja di perusahaan: proyek bersama tim</h3>
               <p>
-                Твой менеджер лично будет продвигать тебя. Твое портфолио будет
-                доступно и виден десяткам компаний Кыргызстана и Казахстана.
+                Anda akan bekerja di platform dalam tim developer lengkap
+                seperti di perusahaan sungguhan
               </p>
             </div>
           </li>
         </ul>
-        <button class="adaptive_button">Получить консультацию</button>
+        <button class="adaptive_button programmer_button">
+          Konsultasi, yuk!
+        </button>
       </section>
       <!-- programmer end -->
       <!-- format start -->
@@ -254,32 +300,32 @@
       <!-- discount start -->
       <section class="container discount_container">
         <div class="discount_content">
-          <h2>Первые места - со скидкой до 10 апреля!</h2>
-          <p>
-            Оставляйте заявку, чтобы наш менеджер позвонил и рассказал детали
-          </p>
+          <h2>Diskon khusus untuk pendaftar pertama</h2>
+          <p>Tinggalkan pesan agar kami dapat mengirim info lebih lanjut</p>
         </div>
-        <form class="discount_form">
+        <form action="" class="discount_form">
           <div class="form_inputs">
-            <input required type="text" placeholder="Ваше имя" />
+            <input name="name" required type="text" placeholder="Ваше имя" />
             <input
+              name="phone"
               type="tel"
-              id="kyrgyzstan-phone"
-              minlength="16"
-              maxlength="16"
-              placeholder="+996 (700) 000-000"
+              placeholder="+62 81 245 555 555"
               required
             />
-            <button class="default_discount_button">Отправить</button>
+            <button class="default_discount_button">
+              Dapatkan konsultasi tentang belajar coding
+            </button>
           </div>
           <div class="discount_checkbox">
             <input required id="check" type="checkbox" />
             <label for="check"
-              >Нажимая кнопку «Отправить», я даю согласие на обработку своих
-              персональных данных</label
-            >
+              >Dengan mengklik tombol "Kirim", saya menyetujui pemrosesan data
+              pribadi saya
+            </label>
           </div>
-          <button class="adaptive_discount_button">Отправить</button>
+          <button class="adaptive_discount_button">
+            Dapatkan konsultasi tentang belajar coding
+          </button>
         </form>
         <img class="sphere" src="./assets/svg/sphere.svg" alt="sphere" />
         <img class="lightning-1" src="./assets/svg/Vector-2.svg" alt="vector" />
@@ -317,5 +363,9 @@
     </div>
 
     <!-- footer end -->
+
+    <!-- JavaScript -->
+    <script src="./main.js"></script>
+    <!-- JavaScript -->
   </body>
 </html>
