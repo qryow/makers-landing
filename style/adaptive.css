@@ -64,6 +64,12 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .modal {
+    width: 60%;
+    padding: 32px 40px 71px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .stats_block {
     gap: 10px;
@@ -257,6 +263,9 @@
 }
 
 @media screen and (max-width: 545px) {
+  .modal {
+    padding: 15px;
+  }
   .facts_item {
     width: 100%;
   }
@@ -395,6 +404,23 @@
 }
 
 @media screen and (max-width: 525px) {
+  .modal_form button {
+    padding: 10px;
+  }
+  .modal_form input {
+    padding: 10px;
+  }
+  .modal_checkbox input[type="checkbox"] {
+    position: relative;
+  }
+  .modal_checkbox input[type="checkbox"]::before {
+    position: absolute;
+    left: 0;
+  }
+  .modal h2 {
+    font-size: 16px;
+    font-weight: 700;
+  }
   .bg_sphere {
     width: 255px;
     height: 303px;
@@ -454,6 +480,9 @@
   .programmer_right svg {
     transform: scaleY(143%);
   }
+  .modal {
+    width: 87%;
+  }
 }
 
 @media screen and (max-width: 385px) {
@@ -469,10 +498,18 @@
   .lightning-2 {
     top: 325px;
   }
+
+  .modal {
+    padding: 12px;
+    gap: 0;
+  }
 }
 
 @media screen and (max-width: 328px) {
   .lightning-2 {
     top: 355px;
+  }
+  .modal {
+    gap: 12px;
   }
 }
