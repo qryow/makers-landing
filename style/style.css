@@ -139,7 +139,7 @@ button {
   background-color: white;
 }
 .modal_form input[type="text"]::placeholder {
-  color: #e0e5ed;
+  color: #999999;
 }
 .modal_checkbox {
   display: flex;

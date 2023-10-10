@@ -404,6 +404,9 @@
 }
 
 @media screen and (max-width: 525px) {
+  main {
+    margin-top: 0;
+  }
   .modal_form button {
     padding: 10px;
   }
