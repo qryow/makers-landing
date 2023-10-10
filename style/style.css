@@ -11,9 +11,11 @@
   user-select: none;
 }
 
-body {
+html {
   scroll-behavior: smooth;
+}
 
+body {
   scrollbar-width: thin;
   scrollbar-color: #333 #ddd;
 }

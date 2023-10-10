@@ -9,13 +9,14 @@
       content="Belajar coding cukup 1 jutaan/bulan. Termasuk program magang/intership. Yuk, daftar sekarang!"
       name="description"
     />
-    <link rel="icon" type="image/x-icon" href="./assets/logo/header.jpg" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo/header.jpeg" />
 
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/adaptive.css" />
   </head>
   <body>
     <!-- modal start -->
+    <div id="top"></div>
     <div class="overlay"></div>
     <div class="modal">
       <svg
@@ -49,11 +50,14 @@
           id="phoneInput"
           name="phone"
           type="text"
-          placeholder="+62 81 245 555 555"
+          placeholder="+62 55 555 555 555"
         />
         <div class="modal_checkbox">
           <input required id="modal-checkbox" type="checkbox" />
-          <label for="modal-checkbox"> Konsultasi, yuk! </label>
+          <label for="modal-checkbox">
+            Dengan mengklik tombol "Konsultasi, yuk!", saya menyetujui
+            pemrosesan data pribadi saya</label
+          >
         </div>
         <button>Kirim</button>
       </form>
@@ -76,7 +80,9 @@
     <div class="wrapper">
       <nav id="nav">
         <div class="container container_nav">
-          <img src="./assets/logo/logo.svg" alt="Logo" />
+          <a href="#top">
+            <img src="./assets/logo/logo.svg" alt="Logo" />
+          </a>
           <!-- <ul class="nav_item_wrapper">
             <li>Блог</li>
             <li>Курсы</li>
@@ -315,7 +321,7 @@
             <input
               name="phone"
               type="tel"
-              placeholder="+62 81 245 555 555"
+              placeholder="+62 55 555 555 555"
               required
               id="phoneInput_second"
             />
