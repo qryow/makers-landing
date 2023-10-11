@@ -16,6 +16,9 @@
   .programmer_left {
     width: 58%;
   }
+  .window {
+    transform: translateX(-28%);
+  }
 }
 
 @media screen and (max-width: 1204px) {
@@ -31,6 +34,10 @@
   }
   .container_expectation img {
     width: 518px;
+  }
+  .window {
+    transform: translateX(-50%);
+    bottom: 97px;
   }
 }
 
@@ -49,11 +56,18 @@
   .container_expectation {
     align-items: flex-start;
   }
+  .window {
+    transform: translateX(-50%);
+    bottom: 252px;
+  }
 }
 
 @media screen and (max-width: 1060px) {
   .container_expectation img {
     width: 55%;
+  }
+  .window {
+    transform: translateX(-37%);
   }
 }
 
@@ -121,6 +135,38 @@
 }
 
 @media screen and (max-width: 936px) {
+  .window {
+    transform: translate(-50%);
+    left: 50%;
+    bottom: 32px;
+    width: 50%;
+    height: 160px;
+    padding: 12px 27px 7px 13px;
+    align-items: flex-start;
+  }
+  .window h2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 72px;
+  }
+  .window .window_p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+  }
+  .window h2 span {
+    font-size: 52px;
+  }
+
+  .window h2 span:last-child {
+    transform: translateY(15px);
+  }
+
   .conatiner_main {
     flex-direction: column;
   }
@@ -262,7 +308,22 @@
   }
 }
 
+@media screen and (max-width: 621px) {
+  .window h2 span:first-child {
+    font-size: 52px;
+  }
+  .window h2 span:nth-child(2) {
+    font-size: 52px;
+  }
+  .window h2 span:last-child {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 545px) {
+  .window {
+    width: 65%;
+  }
   .modal {
     padding: 15px;
   }
@@ -494,6 +555,12 @@
   }
   .nav_item_wrapper {
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .window {
+    width: 80%;
   }
 }
 

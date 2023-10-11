@@ -193,6 +193,7 @@ button {
 /* modal end */
 
 /* advertising_header start */
+
 .advertising_header {
   width: 100%;
   min-height: 90px;
@@ -312,6 +313,55 @@ main {
   z-index: 5;
 }
 
+.window {
+  padding: 17px 15px 16px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 38px;
+  transform: translateX(-50%);
+  height: 197px;
+  width: 195px;
+  background-color: var(--color-main-white);
+  border-radius: 20px;
+  border: 1px solid var(--sale-bg-color);
+}
+.window .window_p {
+  width: 100%;
+  height: auto;
+  padding: 8px 34px 8px 34px;
+  background-color: var(--sale-bg-color);
+  border-radius: 10px;
+  border: none;
+  color: var(--color-main-white);
+  font-size: 20px;
+}
+
+.window h2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.window h2 span:first-child {
+  color: var(--sale-bg-color);
+  font-size: 60px;
+  font-weight: 800;
+}
+.window h2 span:nth-child(2) {
+  color: var(--color-icon-orange);
+  font-size: 60px;
+  font-weight: 800;
+}
+.window h2 span:nth-child(3) {
+  color: var(--color-icon-orange);
+  font-size: 24px;
+  font-weight: 400;
+}
+
 .bg_sphere {
   width: 379px;
   height: 379px;
@@ -326,7 +376,7 @@ main {
 }
 
 .main_left_block {
-  max-width: 45%;
+  max-width: 40%;
   min-width: 186px;
 }
 
