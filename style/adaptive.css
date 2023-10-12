@@ -556,6 +556,9 @@
   .nav_item_wrapper {
     width: 60%;
   }
+  .container_nav img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 375px) {

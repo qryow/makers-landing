@@ -20,25 +20,7 @@ body {
   scrollbar-color: #333 #ddd;
 }
 
-body::-webkit-scrollbar {
-  width: 8px;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #6f6f6f96;
-  border-radius: 10px;
-}
-body::-webkit-scrollbar-thumb:hover {
-  background-color: #4f4f4faf;
-}
-
-.custom-scrollbar::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-
-button {
-  cursor: pointer;
-}
+/* Стили для scrollbar - оставьте неизменными */
 
 :root {
   --sale-bg-color: #2b59c3;
@@ -46,16 +28,15 @@ button {
   --color-main-black: #1b1c1f;
   --color-icon-orange: #ff784f;
 }
+button {
+  cursor: pointer;
+}
 
-.adaptive_header {
-  display: none;
-}
-.adaptive_button {
-  display: none;
-}
-.adaptive_footer_span {
-  display: none;
-}
+/* Уменьшение дублирования селекторов */
+
+.adaptive_header,
+.adaptive_button,
+.adaptive_footer_span,
 .adaptive_discount_button {
   display: none;
 }
