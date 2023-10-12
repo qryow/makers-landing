@@ -65,7 +65,7 @@ const sendData = async ev => {
       body: formBody,
     });
     await response.json();
-    modalButton.innerText = "Diserahkan";
+    modalButton.innerText = "Diajukan";
   } catch (error) {
     alert("Ошибка!");
   }
