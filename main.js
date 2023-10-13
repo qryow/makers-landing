@@ -22,17 +22,17 @@ const closeModal = () => {
 };
 
 // Назначаем обработчики событий
-mainBtn.addEventListener("click", openModal);
-programmerBtn.addEventListener("click", openModal);
-modalClose.addEventListener("click", closeModal);
-overlay.addEventListener("click", closeModal);
+// mainBtn.addEventListener("click", openModal);
+// programmerBtn.addEventListener("click", openModal);
+// modalClose.addEventListener("click", closeModal);
+// overlay.addEventListener("click", closeModal);
 
 // Используем "const" для объявления URL_APP
 const URL_APP =
   "https://script.google.com/macros/s/AKfycbxTir6LsQhBtLAflQ9A_OFb4W0n6t6M4AIPjcCRMMF_YYsxgiDxTgNDv9_vbcTkyCbLlg/exec";
 
 // Обновляем атрибут "action" формы
-form.action = URL_APP;
+// form.action = URL_APP;
 defaultForm.action = URL_APP;
 
 // Создаем функцию для проверки заполненности формы
@@ -65,9 +65,9 @@ const sendData = async ev => {
       body: formBody,
     });
     await response.json();
-    modalButton.innerText = "Diajukan";
+    // modalButton.innerText = "Diajukan";
   } catch (error) {
-    alert("Ошибка!");
+    console.error(error);
   }
 
   name.value = "";
@@ -75,5 +75,4 @@ const sendData = async ev => {
 };
 
 // Назначаем обработчики событий для отправки данных
-form.addEventListener("submit", sendData);
 defaultForm.addEventListener("submit", sendData);
