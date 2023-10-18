@@ -11,15 +11,15 @@ const programmerBtn = document.querySelector(".programmer_btn");
 const modalButton = document.querySelector(".modal_button");
 
 // Создаем функции для открытия и закрытия модального окна
-const openModal = () => {
-  modal.style.display = "flex";
-  overlay.style.display = "block";
-};
+// const openModal = () => {
+//   modal.style.display = "flex";
+//   overlay.style.display = "block";
+// };
 
-const closeModal = () => {
-  modal.style.display = "none";
-  overlay.style.display = "none";
-};
+// const closeModal = () => {
+//   modal.style.display = "none";
+//   overlay.style.display = "none";
+// };
 
 // Назначаем обработчики событий
 // mainBtn.addEventListener("click", openModal);
