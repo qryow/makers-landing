@@ -5,10 +5,14 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Makers | Belajar Coding Untuk Pemula</title>
+    <title>Makers</title>
     <meta
-      content="Belajar coding cukup 1 jutaan/bulan. Termasuk program magang/internship. Yuk, daftar sekarang!"
+      content="Бесплатные курсы для твоего старта в программировании!"
       name="description"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="icon" type="image/x-icon" href="./assets/logo/header.jpeg" />
 
@@ -60,67 +64,6 @@
     <link rel="stylesheet" href="./style/adaptive.css" />
   </head>
   <body>
-    <!-- modal start -->
-    <div id="top"></div>
-    <div class="overlay"></div>
-    <!-- <div class="modal">
-      <svg
-        class="modal_close_icon"
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M4.16602 4.16675L15.8327 15.8334M4.16604 15.8334L9.99937 10.0001L15.8327 4.16675"
-          stroke="#1B1C1F"
-          stroke-linecap="round"
-        />
-      </svg>
-
-      <img class="modal_logo" src="./assets/logo/logo.svg" alt="Makers logo" />
-      <h2>Kamu akan mendapat pemandu khusus untuk tiap tahap pembelajaran</h2>
-
-      <form action="" class="modal_form">
-        <input
-          autofocus
-          required
-          name="name"
-          type="text"
-          placeholder="Nama kamu"
-        />
-        <input
-          required
-          id="phoneInput"
-          name="phone"
-          type="text"
-          placeholder="+62 55 555 555 555"
-        />
-        <div class="modal_checkbox">
-          <input required id="modal-checkbox" type="checkbox" />
-          <label for="modal-checkbox">
-            Dengan mengklik tombol "Konsultasi, yuk!", saya menyetujui
-            pemrosesan data pribadi saya</label
-          >
-        </div>
-        <button class="modal_button">Konsultasi, yuk!</button>
-      </form>
-    </div> -->
-    <!-- modal end -->
-    <!-- advertising_header start -->
-    <!-- <section class="advertising_header">
-      <div class="advertising_header_wrapper">
-        <p>Старт группы Java Script</p>
-        <p>Запишись сейчас и получи скидку 15%</p>
-        <div class="advertising_header_item">
-          <button>Записаться</button>
-          <img src="./assets/advertising/sale.png" alt="Sale" />
-        </div>
-      </div>
-    </section> -->
-    <!-- advertising_header end -->
-
     <!-- navbar start -->
     <div class="wrapper">
       <nav id="nav">
@@ -128,11 +71,12 @@
           <a href="#top">
             <img src="./assets/logo/logo.svg" alt="Logo" />
           </a>
-          <!-- <ul class="nav_item_wrapper">
+          <ul class="nav_item_wrapper">
             <li>Блог</li>
             <li>Курсы</li>
+            <li>Календарь</li>
             <button>Войти</button>
-          </ul> -->
+          </ul>
         </div>
       </nav>
       <!-- navbar end -->
@@ -141,39 +85,90 @@
         <div class="container conatiner_main">
           <!-- background sphere -->
           <div class="bg_sphere"></div>
+          <!--<div class="bg_sphere-2"></div>-->
           <!-- background sphere -->
 
           <div class="main_left_block">
-            <h1>
-              Belajar ngoding dari nol
-              <span> dengan support full sampai dapat kerja</span>
-            </h1>
-            <br />
-            <br />
-            <p>
-              Training dari nol. Didampingi Mentor. Dijamin dapat magang.
+            <div class="main_left_block-text">
+              <h1>
+                Начни карьеру в IT <br />
+                <span> с нуля с полным сопровождением</span>
+              </h1>
               <br />
-              <br />
-              Ingin tahu lebih banyak tentang kursus coding?
-            </p>
-            <a target="_blank" href="https://wa.me/message/ESMMSSYQUOKMM1">
-              <button class="main_button">Hubungi kami</button>
-            </a>
+              <p>
+                Наши выпускники работают в более 40 компаниях мира и
+                зарабатывают в месяц от $600 до $5000. 
+              </p>
+            </div>
+            <form class="consultation_form">
+              <input placeholder="Имя" type="text" />
+              <input placeholder="Номер телефона" type="text" />
+              <button>Получить консультацию</button>
+            </form>
           </div>
           <div class="main_right_block">
-            <div class="window">
-              <p class="window_p">Mulai dari</p>
-              <h2>
-                <span>1</span>
-                <span>jtan</span>
-                <span>/bulan</span>
-              </h2>
+            <div class="photos_item">
+              <img
+                src="./assets/main-photos/photo-7.svg"
+                loading="lazy"
+                alt="photo"
+              />
             </div>
-            <img
+            <div class="photos_item">
+              <img
+                src="./assets/main-photos/photo-6.svg"
+                loading="lazy"
+                alt="photo"
+              />
+            </div>
+            <div class="photos_item">
+              <img
+                src="./assets/main-photos/photo-5.svg"
+                loading="lazy"
+                alt="photo"
+              />
+            </div>
+            <div class="photos_item">
+              <img
+                src="./assets/main-photos/photo-4.svg"
+                loading="lazy"
+                alt="photo"
+              />
+            </div>
+            <div class="photos_item">
+              <img
+                src="./assets/main-photos/photo-3.svg"
+                loading="lazy"
+                alt="photo"
+              />
+            </div>
+            <div class="photos_item">
+              <img
+                src="./assets/main-photos/square.svg"
+                loading="lazy"
+                alt="photo"
+              />
+            </div>
+            <div class="photos_item">
+              <img
+                src="./assets/main-photos/photo-2.svg"
+                loading="lazy"
+                alt="photo"
+              />
+            </div>
+            <div class="photos_item">
+              <img
+                src="./assets/main-photos/photo-1.svg"
+                loading="lazy"
+                alt="photo"
+              />
+            </div>
+
+            <!--<img
               src="./assets/humanPick/Belajar Coding.png"
               alt="Belajar coding untuk pemula di Makers"
               loading="lazy"
-            />
+            />-->
           </div>
         </div>
       </main>
@@ -183,279 +178,398 @@
         <div class="stats_block">
           <div class="stats_item">
             <h2>5</h2>
-            <span>tahun pengalaman di Asia Tengah</span>
+            <span>летний опыт в Центральной Азии</span>
           </div>
           <hr />
           <div class="stats_item">
             <h2>1200+</h2>
-            <span>lulusan</span>
+            <span>выпускников</span>
           </div>
           <hr />
           <div class="stats_item">
-            <h2>800+</h2>
-            <span>lulusan telah dapat pekerjaan</span>
+            <h2>500+</h2>
+            <span>трудоустроенных выпускников</span>
           </div>
         </div>
       </section>
       <!-- stats end -->
-      <!-- facts start -->
-      <section class="container container_facts">
-        <h2 class="default_header">Kenapa Makers?</h2>
-        <h2 class="adaptive_header">Kenapa Makers?</h2>
-        <div class="facts_item_wrapper">
-          <div class="facts_item">
-            <div class="facts_item_header">
-              <img
-                src="./assets/facts/code.svg"
-                alt="code icon"
-                loading="lazy"
-              />
-              <h3>Dukungan penuh hingga dapat pekerjaan</h3>
+      <!-- why-block start -->
+      <section class="container container_why-block">
+        <div class="why_block_left">
+          <h3>
+            Почему <br />
+            <span>Makers?</span>
+          </h3>
+          <p>
+            Find your dream place to live in with more than 10k+ properties
+            listed.
+          </p>
+          <img src="./assets/why-block/why-block-img.svg" alt="workflow svg" />
+        </div>
+        <div class="why_block_right">
+          <div class="right_block-item">
+            <img
+              src="./assets/why-block/document-icon.svg"
+              alt="document-icon"
+            />
+            <div class="right_block-item-text">
+              <h5>Стажировка</h5>
+              <p>
+                После курса попадаете в стажировочную программу, где вы сможете
+                получить опыт разработки и подготовиться к трудоустройству.
+              </p>
             </div>
-            <p class="facts_item_content">
-              Setelah selesai pelatihan, kamu akan ditawari magang online,
-              dimana kamu dapat pengalaman bekerja dalam tim dan mendapat surat
-              rekomendasi dari perusahaan IT
-            </p>
           </div>
-          <div class="facts_item">
-            <div class="facts_item_header">
-              <img
-                src="./assets/facts/netbook.svg"
-                alt="code icon"
-                loading="lazy"
-              />
-              <h3>Pemandu khusus dan tim mentor</h3>
+          <div class="right_block-item">
+            <img src="./assets/why-block/file-icon.svg" alt="file-icon" />
+            <div class="right_block-item-text">
+              <h5>Приглашение на работу</h5>
+              <p>
+                Лучшие участники попадают в список, который доступен
+                работодателям. Это поможет вам получить приглашение на работу.
+              </p>
             </div>
-            <p class="facts_item_content">
-              Kamu akan dibimbing oleh kepala pengajar dan asisten pengajar.
-              Selain itu, akan ada pemandu yang akan memonitor tingkat
-              kedisiplinanmu. Kamu tidak akan kebingungan selama proses belajar.
-            </p>
           </div>
-          <div class="facts_item">
-            <div class="facts_item_header">
-              <img
-                src="./assets/facts/user.svg"
-                alt="code icon"
-                loading="lazy"
-              />
-              <h3>
-                Pelatihan di dalam tim berdasarkan proyek nyata di perusahaan
-              </h3>
+          <div class="right_block-item">
+            <img src="./assets/why-block/work-icon.svg" alt="work-icon" />
+            <div class="right_block-item-text">
+              <h5>Трудоустройство</h5>
+              <p>
+                С каждым нашим студентом мы работаем индивидуально до
+                трудоустройства.
+              </p>
             </div>
-            <p class="facts_item_content">
-              Kami telah mempersiapkan platform khusus dimana kamu akan
-              benar-benar melaksanakan proyek nyata bersama tim, seperti bekerja
-              di perusahaan sungguhan.
-            </p>
           </div>
         </div>
       </section>
-      <!-- facts end -->
+      <!-- why-block -->
       <!-- advantage start -->
       <section class="container container_expectation">
-        <img
-          src="./assets/humanPick/Jadi Programmer.png"
-          alt="Belajar coding dari nol"
-        />
-        <div class="expectation_content_wrapper">
-          <h2>Kamu bakal dapat fasilitas:</h2>
-          <ul>
-            <li>
-              <img
-                src="./assets/advantage/user_speak.svg"
-                alt="User speak"
-                loading="lazy"
-              />
-              <span>Diajarin langsung oleh programmer berpengalaman</span>
-            </li>
-            <li>
-              <img
-                src="./assets/advantage/network.svg"
-                alt="Network"
-                loading="lazy"
-              />
-              <span>Latihan interview kerja</span>
-            </li>
-            <li>
-              <img
-                src="./assets/advantage/documents.svg"
-                alt="Documents"
-                loading="lazy"
-              />
-              <span>Konsultasi karir</span>
-            </li>
-          </ul>
+        <h3>Вы получите</h3>
+        <div class="advantages_wrapper">
+          <div class="advantage_item">
+            <img src="./assets/advantage/portfolio.svg" alt="portfolio icon" />
+            <h5>Портфолио</h5>
+            <p>Портфолио из 2 больших и 3 мини проектов.</p>
+          </div>
+          <div class="advantage_item">
+            <img src="./assets/advantage/prepare.svg" alt="preparing icon" />
+            <h5>Подготовка</h5>
+            <p>Подготовка к собеседованиям через тестовые собеседования.</p>
+          </div>
+          <div class="advantage_item">
+            <img src="./assets/advantage/lesson.svg" alt="lesson icon" />
+            <h5>Уроки</h5>
+            <p>
+              3 живых лекций с ментором в неделю. Плюс более 200 записанных
+              видео-уроков для повтора теории.
+            </p>
+          </div>
+          <div class="advantage_item">
+            <img src="./assets/advantage/practice.svg" alt="practice icon" />
+            <h5>Практика</h5>
+            <p>Твердая практика знаний, которые изучили. </p>
+          </div>
         </div>
       </section>
       <!-- advantage end -->
-      <!-- programmer start -->
-      <section class="container programmer_container">
-        <div class="programmer_left">
-          <h2>
-            Tahap-tahap
-            <br />
-            <span>kursus:</span>
-          </h2>
-          <div class="programmer_left_content_wrapper">
+      <!-- internship program start -->
+      <div class="internship_block">
+        <section class="container intership_container">
+          <h3>
+            Что есть в
+            <span
+              >стажировочной <br />
+              программе</span
+            >?
+          </h3>
+          <div class="intership_blocks">
+            <div class="internship_blocks-item item_blue">
+              <img src="./assets/intership/first.svg" alt="first number icon" />
+              <p>
+                Совместные хакатоны и стажировочные программы с работодателями,
+                где вы можете показать себя компаниям. 
+              </p>
+            </div>
+            <div class="internship_blocks-item">
+              <img
+                src="./assets/intership/second.svg"
+                alt="second number icon"
+              />
+              <p>
+                Тестовые проекты и задания от работодателей, которые помогут вам
+                трудоустроиться.
+              </p>
+            </div>
+            <div class="internship_blocks-item item_blue">
+              <img src="./assets/intership/third.svg" alt="third number icon" />
+              <p>Опыт разработки реальных продуктов в команде.</p>
+            </div>
+            <div class="internship_blocks-item">
+              <img
+                src="./assets/intership/fourth.svg"
+                alt="fourth number icon"
+              />
+              <p>Опыт работы над проектом от заказчика.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- internship program end -->
+
+      <!-- reviews start -->
+      <div class="container reviews_container">
+        <div class="reviews">
+          <div class="review_info">
+            <h3>
+              Наши студенты думают, что
+              <span> мы лучшее</span>
+            </h3>
+            <div class="arrows">
+              <div class="arrow swiper-button-prev">
+                <img src="./assets/svg/arrow-toleft.svg" alt="arrow to left" />
+              </div>
+              <div class="arrow swiper-button-next">
+                <img
+                  src="./assets/svg/arrow-toright.svg"
+                  alt="arrow to right"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper">
+            <div class="reciews_block swiper-wrapper">
+              <div class="one_review-card swiper-slide">
+                <div class="card_imgs">
+                  <img src="./assets/reviews/Black.svg" alt="black" />
+                  <img src="./assets/reviews/stars.svg" alt="start" />
+                </div>
+                <p>
+                  I had the pleasure of working with ABC Realty to find my dream
+                  home, and I couldn't be happier with the entire experience.
+                  <br />
+                  <br />
+                  From the moment I walked into their office, I felt welcomed
+                  and supported by their friendly team.
+                </p>
+                <div class="card_user-info">
+                  <div class="card_user-info-content">
+                    <img src="./assets/reviews/user.svg" alt="user icon" />
+                    <div class="card_user-info-text">
+                      <h5>Sarah M.</h5>
+                      <p>Property consultation</p>
+                    </div>
+                  </div>
+                  <img src="./assets/reviews/check.svg" alt="checkbox" />
+                </div>
+              </div>
+              <div class="one_review-card swiper-slide">
+                <div class="card_imgs">
+                  <img src="./assets/reviews/Black.svg" alt="black" />
+                  <img src="./assets/reviews/stars.svg" alt="start" />
+                </div>
+                <p>
+                  I had the pleasure of working with ABC Realty to find my dream
+                  home, and I couldn't be happier with the entire experience.
+                  <br />
+                  <br />
+                  From the moment I walked into their office, I felt welcomed
+                  and supported by their friendly team.
+                </p>
+                <div class="card_user-info">
+                  <div class="card_user-info-content">
+                    <img src="./assets/reviews/user.svg" alt="user icon" />
+                    <div class="card_user-info-text">
+                      <h5>Sarah M.</h5>
+                      <p>Property consultation</p>
+                    </div>
+                  </div>
+                  <img src="./assets/reviews/check.svg" alt="checkbox" />
+                </div>
+              </div>
+              <div class="one_review-card swiper-slide">
+                <div class="card_imgs">
+                  <img src="./assets/reviews/Black.svg" alt="black" />
+                  <img src="./assets/reviews/stars.svg" alt="start" />
+                </div>
+                <p>
+                  I had the pleasure of working with ABC Realty to find my dream
+                  home, and I couldn't be happier with the entire experience.
+                  <br />
+                  <br />
+                  From the moment I walked into their office, I felt welcomed
+                  and supported by their friendly team.
+                </p>
+                <div class="card_user-info">
+                  <div class="card_user-info-content">
+                    <img src="./assets/reviews/user.svg" alt="user icon" />
+                    <div class="card_user-info-text">
+                      <h5>Sarah M.</h5>
+                      <p>Property consultation</p>
+                    </div>
+                  </div>
+                  <img src="./assets/reviews/check.svg" alt="checkbox" />
+                </div>
+              </div>
+              <div class="one_review-card swiper-slide">
+                <div class="card_imgs">
+                  <img src="./assets/reviews/Black.svg" alt="black" />
+                  <img src="./assets/reviews/stars.svg" alt="start" />
+                </div>
+                <p>
+                  I had the pleasure of working with ABC Realty to find my dream
+                  home, and I couldn't be happier with the entire experience.
+                  <br />
+                  <br />
+                  From the moment I walked into their office, I felt welcomed
+                  and supported by their friendly team.
+                </p>
+                <div class="card_user-info">
+                  <div class="card_user-info-content">
+                    <img src="./assets/reviews/user.svg" alt="user icon" />
+                    <div class="card_user-info-text">
+                      <h5>Sarah M.</h5>
+                      <p>Property consultation</p>
+                    </div>
+                  </div>
+                  <img src="./assets/reviews/check.svg" alt="checkbox" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- reviews end -->
+
+      <!-- courses start -->
+      <div class="container courses_container">
+        <h3>Наши <span>курсы</span></h3>
+
+        <div class="courses_wrapper">
+          <div class="one_course">
+            <img src="./assets/courses/photo-1.svg" alt="course image" />
+            <h5>Название курса</h5>
+            <div class="course_line"></div>
+            <div class="one_course_content">
+              <div class="one_course_content-item">
+                <div class="content-item-left">
+                  <img src="./assets/courses/Calendar.svg" alt="" />
+                  <h6>Длительность курса</h6>
+                </div>
+                <p>6 месяцев</p>
+              </div>
+              <div class="one_course_content-item">
+                <div class="content-item-left">
+                  <img src="./assets/courses/Calendar.svg" alt="" />
+                  <h6>Дата начала курса</h6>
+                </div>
+                <p>12.01.24</p>
+              </div>
+              <div class="one_course_content-item">
+                <div class="content-item-left">
+                  <img src="./assets/courses/Users.svg" alt="" />
+                  <h6 style="color: rgba(27, 28, 31, 1); font-size: 16px">
+                    Учеников в группе
+                  </h6>
+                </div>
+                <p style="color: rgba(27, 28, 31, 1); font-size: 16px">10</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="one_course">
+            <img src="./assets/courses/photo-2.svg" alt="course image" />
+            <h5>Название курса</h5>
+            <div class="course_line"></div>
+            <div class="one_course_content">
+              <div class="one_course_content-item">
+                <div class="content-item-left">
+                  <img src="./assets/courses/Calendar.svg" alt="" />
+                  <h6>Длительность курса</h6>
+                </div>
+                <p>6 месяцев</p>
+              </div>
+              <div class="one_course_content-item">
+                <div class="content-item-left">
+                  <img src="./assets/courses/Calendar.svg" alt="" />
+                  <h6>Дата начала курса</h6>
+                </div>
+                <p>12.01.24</p>
+              </div>
+              <div class="one_course_content-item">
+                <div class="content-item-left">
+                  <img src="./assets/courses/Users.svg" alt="" />
+                  <h6 style="color: rgba(27, 28, 31, 1); font-size: 16px">
+                    Учеников в группе
+                  </h6>
+                </div>
+                <p style="color: rgba(27, 28, 31, 1); font-size: 16px">10</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="one_course">
+            <img src="./assets/courses/photo-3.svg" alt="course image" />
+            <h5>Название курса</h5>
+            <div class="course_line"></div>
+            <div class="one_course_content">
+              <div class="one_course_content-item">
+                <div class="content-item-left">
+                  <img src="./assets/courses/Calendar.svg" alt="" />
+                  <h6>Длительность курса</h6>
+                </div>
+                <p>6 месяцев</p>
+              </div>
+              <div class="one_course_content-item">
+                <div class="content-item-left">
+                  <img src="./assets/courses/Calendar.svg" alt="" />
+                  <h6>Дата начала курса</h6>
+                </div>
+                <p>12.01.24</p>
+              </div>
+              <div class="one_course_content-item">
+                <div class="content-item-left">
+                  <img src="./assets/courses/Users.svg" alt="" />
+                  <h6 style="color: rgba(27, 28, 31, 1); font-size: 16px">
+                    Учеников в группе
+                  </h6>
+                </div>
+                <p style="color: rgba(27, 28, 31, 1); font-size: 16px">10</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- courses end -->
+
+      <!-- consultation start -->
+      <div class="container consultation_container">
+        <div class="consultation_block">
+          <div class="consultation_left">
+            <h4>
+              Бесплатный
+              <span
+                >курс <br />
+                по основам</span
+              >
+            </h4>
             <p>
-              Kamu akan mendapat pemandu khusus untuk tiap tahap pembelajaran  
+              Изучи что такое IT и направления. Узнай больше про языки
+              программирования. Получи ответ на вопрос как выбрать направление и
+              с чего начать обучение?
             </p>
-            <button class="default_button programmer_btn">
-              Konsultasi, yuk!
-            </button>
+            <button>Получить консультацию</button>
+          </div>
+          <div class="consultation_right">
+            <img src="./assets/study-table.svg" alt="" />
           </div>
         </div>
-        <ul class="programmer_right">
-          <!-- border -->
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="2"
-            height="269"
-            viewBox="0 0 2 269"
-            fill="none"
-          >
-            <path
-              d="M1 0L1.00001 269"
-              stroke="#FF784F"
-              stroke-dasharray="6 6"
-            />
-          </svg>
-          <!-- border -->
+      </div>
+      <!-- consultation end -->
 
-          <li>
-            <h4>01</h4>
-            <div class="programmer_item_content programmer_item_right_border">
-              <h3>Belajar dasar-dasar pemrograman</h3>
-              <p>
-                Pembelajaran penuh bersama pengajar dan pemandu personal yang
-                profesional
-              </p>
-            </div>
-          </li>
-          <li>
-            <h4>02</h4>
-            <div class="programmer_item_content programmer_item_right_border">
-              <h3>Pelatihan mendalam dan proyek individu</h3>
-              <p>Sesi interaktif dan praktek membuat proyek IT</p>
-            </div>
-          </li>
-          <li>
-            <h4>03</h4>
-            <div class="programmer_item_content programmer_item_right_border">
-              <h3>Proyek akhir</h3>
-              <p>Proyek akhir dalam tim bersama peserta bootcamp yang lain</p>
-            </div>
-          </li>
-          <li>
-            <h4>04</h4>
-            <div class="programmer_item_content">
-              <h3>Simulasi kerja di perusahaan: proyek bersama tim</h3>
-              <p>
-                Kamu akan bekerja di platform dalam tim developer lengkap
-                seperti di perusahaan sungguhan
-              </p>
-            </div>
-          </li>
-        </ul>
-        <a target="_blank" href="https://wa.me/message/ESMMSSYQUOKMM1">
-          <button class="adaptive_button programmer_button">
-            Konsultasi, yuk!
-          </button>
-        </a>
-      </section>
-      <!-- programmer end -->
-      <!-- format start -->
-      <section class="container format_container">
-        <div class="format_wrapper">
-          <h2>Bootcamp:</h2>
-          <hr />
-          <ul>
-            <li>Durasi: 4 bulan</li>
-            <li>Jadwal: 5 hari per minggu, 3 jam per hari</li>
-            <li>Program magang</li>
-            <li>Online</li>
-            <!-- <li>Продолжительность - 4 месяца.</li>
-            <li>Онлайн стажировка</li>
-            <li>JavaScript / Python</li> -->
-          </ul>
-        </div>
-        <div class="format_wrapper">
-          <h2>Kursus:</h2>
-          <hr />
-          <ul>
-            <li>Durasi: 6 bulan</li>
-            <li>Jadwal: 3 hari per minggu, 2 jam per hari</li>
-            <li>Program magang</li>
-            <li>Online</li>
-            <!-- <li>Продолжительность - 4.5 месяца</li>
-            <li>Онлайн стажировка</li>
-            <li>JavaScript / Python</li> -->
-          </ul>
-        </div>
-      </section>
-      <!-- format end -->
-      <!-- discount start -->
-      <section class="container discount_container">
-        <div class="discount_content">
-          <h2>Diskon khusus untuk pendaftar pertama</h2>
-          <p>Tinggalkan pesan agar kami dapat mengirim info lebih lanjut</p>
-        </div>
-        <form action="" class="discount_form">
-          <div class="form_inputs">
-            <input name="name" required type="text" placeholder="Nama kamu" />
-            <input
-              name="phone"
-              type="tel"
-              placeholder="+62 55 555 555 555"
-              required
-              id="phoneInput_second"
-            />
-            <button class="default_discount_button">Kirim</button>
-          </div>
-          <div class="discount_checkbox">
-            <input required id="check" type="checkbox" />
-            <label for="check"
-              >Dengan mengklik tombol "Kirim", saya menyetujui pemrosesan data
-              pribadi saya
-            </label>
-          </div>
-
-          <button class="adaptive_discount_button">Kirim</button>
-        </form>
-        <img
-          class="sphere"
-          src="./assets/svg/sphere.svg"
-          alt="sphere"
-          loading="lazy"
-        />
-        <img
-          class="lightning-1"
-          src="./assets/svg/Vector-2.svg"
-          alt="vector"
-          loading="lazy"
-        />
-        <img
-          class="lightning-2"
-          src="./assets/svg/Vector.svg"
-          alt="vector"
-          loading="lazy"
-        />
-        <img
-          class="lightning-3"
-          src="./assets/svg/Vector-1.svg"
-          alt="vector"
-          loading="lazy"
-        />
-        <img
-          class="percent"
-          src="./assets/svg/percent.svg"
-          alt=""
-          loading="lazy"
-        />
-      </section>
-      <!-- discount end -->
       <!-- footer start -->
       <footer>
         <div class="container footer_container">
@@ -471,23 +585,26 @@
           </div>
           <div class="footer_right">
             <div class="phone_number">
-              <!-- <span>+996 704 409 409</span>
-              <span>+996 704 409 409</span> -->
+              <span>+996 704 409 409</span>
+              <span>+996 704 409 409</span>
             </div>
-            <!-- <p>Табышалиева 29, Bishkek Kyrgyzstan</p> -->
+            <p>Табышалиева 29, Bishkek Kyrgyzstan</p>
             <div class="net_link">
               <a
                 target="_blank"
                 href="https://instagram.com/makers.bootcamp.id?igshid=MzRlODBiNWFlZA=="
               >
-                <img
-                  src="https://juniors.dev/assets/instagram-text-icon-6e70e3d3.svg"
-                  alt="instagram icon"
-                />
+                <img src="./assets/svg/instagram.svg" alt="instagram icon" />
               </a>
-
-              <!-- <img src="./assets/svg/youtube.svg" alt="youtube icon" />
-              <img src="./assets/svg/facebook.svg" alt="facebook icon" /> -->
+              <a
+                target="_blank"
+                href="https://www.youtube.com/@makersbootcamp224"
+              >
+                <img src="./assets/svg/youtube.svg" alt="youtube icon" />
+              </a>
+              <a target="_blank" href="https://www.facebook.com/makerskg/">
+                <img src="./assets/svg/facebook.svg" alt="facebook icon" />
+              </a>
             </div>
           </div>
           <span class="adaptive_footer_span">
@@ -500,7 +617,9 @@
     <!-- footer end -->
 
     <!-- JavaScript -->
-    <script src="./main.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--<script src="app.min.js?_v=20240609221351"></script>-->
+    <script src="./main.js"></script>
     <!-- JavaScript -->
   </body>
 </html>
