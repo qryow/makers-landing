@@ -302,6 +302,9 @@ main {
 .consultation_form button:hover {
   background-color: rgb(236, 236, 236);
 }
+.photos_item img {
+  width: 127px;
+}
 
 .main_right_block {
   width: 30%;
