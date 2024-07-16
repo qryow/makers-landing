@@ -69,7 +69,7 @@
       <nav id="nav">
         <div class="container container_nav">
           <a href="#top">
-            <img src="./assets/logo/logo.svg" alt="Logo" />
+            <img class="logo" src="./assets/logo/logo.svg" alt="Logo" />
           </a>
           <ul class="nav_item_wrapper">
             <li>Блог</li>
@@ -77,15 +77,39 @@
             <li>Календарь</li>
             <button>Войти</button>
           </ul>
+          <div id="burger-menu">
+            <img
+              src="./assets/svg/burger-menu.svg"
+              loading="lazy"
+              alt="burger-menu icon"
+            />
+          </div>
         </div>
       </nav>
+      <div id="sidebar_wrapper">
+        <div id="sidebar" class="sidebar">
+          <div class="close_icon">
+            <img
+              id="close-btn"
+              src="./assets/svg/close-icon.svg"
+              alt="close icon"
+            />
+          </div>
+          <ul class="sidebar-content">
+            <li>Блог</li>
+            <li>Курсы</li>
+            <li>Календарь</li>
+            <button>Войти</button>
+          </ul>
+        </div>
+      </div>
       <!-- navbar end -->
       <!-- main start -->
       <main>
         <div class="container conatiner_main">
           <!-- background sphere -->
           <div class="bg_sphere"></div>
-          <!--<div class="bg_sphere-2"></div>-->
+          <div class="bg_sphere-2"></div>
           <!-- background sphere -->
 
           <div class="main_left_block">
@@ -108,28 +132,60 @@
           </div>
           <div class="main_right_block">
             <div class="photos_item">
-              <img src="./assets/main-photos/photo-7.svg" alt="photo" />
+              <img
+                src="./assets/main-photos/photo-7.svg"
+                loading="lazy"
+                alt="photo"
+              />
             </div>
             <div class="photos_item">
-              <img src="./assets/main-photos/photo-6.svg" alt="photo" />
+              <img
+                src="./assets/main-photos/photo-2.svg"
+                loading="lazy"
+                alt="photo"
+              />
             </div>
             <div class="photos_item">
-              <img src="./assets/main-photos/photo-5.svg" alt="photo" />
+              <img
+                src="./assets/main-photos/photo-5.svg"
+                loading="lazy"
+                alt="photo"
+              />
             </div>
             <div class="photos_item">
-              <img src="./assets/main-photos/photo-4.svg" alt="photo" />
+              <img
+                src="./assets/main-photos/photo-4.svg"
+                loading="lazy"
+                alt="photo"
+              />
             </div>
             <div class="photos_item">
-              <img src="./assets/main-photos/photo-3.svg" alt="photo" />
+              <img
+                src="./assets/main-photos/photo-3.svg"
+                loading="lazy"
+                alt="photo"
+              />
             </div>
             <div class="photos_item">
-              <img src="./assets/main-photos/square.svg" alt="photo" />
+              <img
+                src="./assets/main-photos/square.svg"
+                loading="lazy"
+                alt="photo"
+              />
             </div>
             <div class="photos_item">
-              <img src="./assets/main-photos/photo-2.svg" alt="photo" />
+              <img
+                src="./assets/main-photos/photo-1.svg"
+                loading="lazy"
+                alt="photo"
+              />
             </div>
             <div class="photos_item">
-              <img src="./assets/main-photos/photo-1.svg" alt="photo" />
+              <img
+                src="./assets/main-photos/photo-6.svg"
+                loading="lazy"
+                alt="photo"
+              />
             </div>
           </div>
         </div>
@@ -158,20 +214,27 @@
       <!-- why-block start -->
       <section class="container container_why-block">
         <div class="why_block_left">
-          <h3>
-            Почему <br />
-            <span>Makers?</span>
-          </h3>
-          <p>
-            Find your dream place to live in with more than 10k+ properties
-            listed.
-          </p>
-          <img src="./assets/why-block/why-block-img.svg" alt="workflow svg" />
+          <div class="why_block_left-text">
+            <h3>
+              Почему <br />
+              <span>Makers?</span>
+            </h3>
+            <p>
+              Find your dream place to live in with more than 10k+ properties
+              listed.
+            </p>
+          </div>
+          <img
+            src="./assets/why-block/why-block-img.svg"
+            loading="lazy"
+            alt="workflow svg"
+          />
         </div>
         <div class="why_block_right">
           <div class="right_block-item">
             <img
               src="./assets/why-block/document-icon.svg"
+              loading="lazy"
               alt="document-icon"
             />
             <div class="right_block-item-text">
@@ -183,7 +246,11 @@
             </div>
           </div>
           <div class="right_block-item">
-            <img src="./assets/why-block/file-icon.svg" alt="file-icon" />
+            <img
+              src="./assets/why-block/file-icon.svg"
+              alt="file-icon"
+              loading="lazy"
+            />
             <div class="right_block-item-text">
               <h5>Приглашение на работу</h5>
               <p>
@@ -193,7 +260,11 @@
             </div>
           </div>
           <div class="right_block-item">
-            <img src="./assets/why-block/work-icon.svg" alt="work-icon" />
+            <img
+              src="./assets/why-block/work-icon.svg"
+              alt="work-icon"
+              loading="lazy"
+            />
             <div class="right_block-item-text">
               <h5>Трудоустройство</h5>
               <p>
@@ -210,27 +281,51 @@
         <h3>Вы получите</h3>
         <div class="advantages_wrapper">
           <div class="advantage_item">
-            <img src="./assets/advantage/portfolio.svg" alt="portfolio icon" />
-            <h5>Портфолио</h5>
-            <p>Портфолио из 2 больших и 3 мини проектов.</p>
+            <img
+              src="./assets/advantage/portfolio.svg"
+              alt="portfolio icon"
+              loading="lazy"
+            />
+            <div class="advantage_item-text">
+              <h5>Портфолио</h5>
+              <p>Портфолио из 2 больших и 3 мини проектов.</p>
+            </div>
           </div>
           <div class="advantage_item">
-            <img src="./assets/advantage/prepare.svg" alt="preparing icon" />
-            <h5>Подготовка</h5>
-            <p>Подготовка к собеседованиям через тестовые собеседования.</p>
+            <img
+              src="./assets/advantage/prepare.svg"
+              alt="preparing icon"
+              loading="lazy"
+            />
+            <div class="advantage_item-text">
+              <h5>Подготовка</h5>
+              <p>Подготовка к собеседованиям через тестовые собеседования.</p>
+            </div>
           </div>
           <div class="advantage_item">
-            <img src="./assets/advantage/lesson.svg" alt="lesson icon" />
-            <h5>Уроки</h5>
-            <p>
-              3 живых лекций с ментором в неделю. Плюс более 200 записанных
-              видео-уроков для повтора теории.
-            </p>
+            <img
+              src="./assets/advantage/lesson.svg"
+              alt="lesson icon"
+              loading="lazy"
+            />
+            <div class="advantage_item-text">
+              <h5>Уроки</h5>
+              <p>
+                3 живых лекций с ментором в неделю. Плюс более 200 записанных
+                видео-уроков для повтора теории.
+              </p>
+            </div>
           </div>
           <div class="advantage_item">
-            <img src="./assets/advantage/practice.svg" alt="practice icon" />
-            <h5>Практика</h5>
-            <p>Твердая практика знаний, которые изучили. </p>
+            <img
+              src="./assets/advantage/practice.svg"
+              alt="practice icon"
+              loading="lazy"
+            />
+            <div class="advantage_item-text">
+              <h5>Практика</h5>
+              <p>Твердая практика знаний, которые изучили. </p>
+            </div>
           </div>
         </div>
       </section>
@@ -247,7 +342,11 @@
           </h3>
           <div class="intership_blocks">
             <div class="internship_blocks-item item_blue">
-              <img src="./assets/intership/first.svg" alt="first number icon" />
+              <img
+                src="./assets/intership/first.svg"
+                alt="first number icon"
+                loading="lazy"
+              />
               <p>
                 Совместные хакатоны и стажировочные программы с работодателями,
                 где вы можете показать себя компаниям. 
@@ -256,6 +355,7 @@
             <div class="internship_blocks-item">
               <img
                 src="./assets/intership/second.svg"
+                loading="lazy"
                 alt="second number icon"
               />
               <p>
@@ -264,12 +364,17 @@
               </p>
             </div>
             <div class="internship_blocks-item item_blue">
-              <img src="./assets/intership/third.svg" alt="third number icon" />
+              <img
+                src="./assets/intership/third.svg"
+                alt="third number icon"
+                loading="lazy"
+              />
               <p>Опыт разработки реальных продуктов в команде.</p>
             </div>
             <div class="internship_blocks-item">
               <img
                 src="./assets/intership/fourth.svg"
+                loading="lazy"
                 alt="fourth number icon"
               />
               <p>Опыт работы над проектом от заказчика.</p>
@@ -289,11 +394,16 @@
             </h3>
             <div class="arrows">
               <div class="arrow swiper-button-prev">
-                <img src="./assets/svg/arrow-toleft.svg" alt="arrow to left" />
+                <img
+                  src="./assets/svg/arrow-toleft.svg"
+                  loading="lazy"
+                  alt="arrow to left"
+                />
               </div>
               <div class="arrow swiper-button-next">
                 <img
                   src="./assets/svg/arrow-toright.svg"
+                  loading="lazy"
                   alt="arrow to right"
                 />
               </div>
@@ -304,8 +414,16 @@
             <div class="reciews_block swiper-wrapper">
               <div class="one_review-card swiper-slide">
                 <div class="card_imgs">
-                  <img src="./assets/reviews/Black.svg" alt="black" />
-                  <img src="./assets/reviews/stars.svg" alt="start" />
+                  <img
+                    src="./assets/reviews/Black.svg"
+                    loading="lazy"
+                    alt="black"
+                  />
+                  <img
+                    src="./assets/reviews/stars.svg"
+                    loading="lazy"
+                    alt="start"
+                  />
                 </div>
                 <p>
                   I had the pleasure of working with ABC Realty to find my dream
@@ -317,19 +435,35 @@
                 </p>
                 <div class="card_user-info">
                   <div class="card_user-info-content">
-                    <img src="./assets/reviews/user.svg" alt="user icon" />
+                    <img
+                      src="./assets/reviews/user.svg"
+                      loading="lazy"
+                      alt="user icon"
+                    />
                     <div class="card_user-info-text">
                       <h5>Sarah M.</h5>
                       <p>Property consultation</p>
                     </div>
                   </div>
-                  <img src="./assets/reviews/check.svg" alt="checkbox" />
+                  <img
+                    src="./assets/reviews/check.svg"
+                    loading="lazy"
+                    alt="checkbox"
+                  />
                 </div>
               </div>
               <div class="one_review-card swiper-slide">
                 <div class="card_imgs">
-                  <img src="./assets/reviews/Black.svg" alt="black" />
-                  <img src="./assets/reviews/stars.svg" alt="start" />
+                  <img
+                    src="./assets/reviews/Black.svg"
+                    loading="lazy"
+                    alt="black"
+                  />
+                  <img
+                    src="./assets/reviews/stars.svg"
+                    loading="lazy"
+                    alt="start"
+                  />
                 </div>
                 <p>
                   I had the pleasure of working with ABC Realty to find my dream
@@ -341,19 +475,35 @@
                 </p>
                 <div class="card_user-info">
                   <div class="card_user-info-content">
-                    <img src="./assets/reviews/user.svg" alt="user icon" />
+                    <img
+                      src="./assets/reviews/user.svg"
+                      loading="lazy"
+                      alt="user icon"
+                    />
                     <div class="card_user-info-text">
                       <h5>Sarah M.</h5>
                       <p>Property consultation</p>
                     </div>
                   </div>
-                  <img src="./assets/reviews/check.svg" alt="checkbox" />
+                  <img
+                    src="./assets/reviews/check.svg"
+                    loading="lazy"
+                    alt="checkbox"
+                  />
                 </div>
               </div>
               <div class="one_review-card swiper-slide">
                 <div class="card_imgs">
-                  <img src="./assets/reviews/Black.svg" alt="black" />
-                  <img src="./assets/reviews/stars.svg" alt="start" />
+                  <img
+                    src="./assets/reviews/Black.svg"
+                    loading="lazy"
+                    alt="black"
+                  />
+                  <img
+                    src="./assets/reviews/stars.svg"
+                    loading="lazy"
+                    alt="start"
+                  />
                 </div>
                 <p>
                   I had the pleasure of working with ABC Realty to find my dream
@@ -365,19 +515,35 @@
                 </p>
                 <div class="card_user-info">
                   <div class="card_user-info-content">
-                    <img src="./assets/reviews/user.svg" alt="user icon" />
+                    <img
+                      src="./assets/reviews/user.svg"
+                      loading="lazy"
+                      alt="user icon"
+                    />
                     <div class="card_user-info-text">
                       <h5>Sarah M.</h5>
                       <p>Property consultation</p>
                     </div>
                   </div>
-                  <img src="./assets/reviews/check.svg" alt="checkbox" />
+                  <img
+                    src="./assets/reviews/check.svg"
+                    loading="lazy"
+                    alt="checkbox"
+                  />
                 </div>
               </div>
               <div class="one_review-card swiper-slide">
                 <div class="card_imgs">
-                  <img src="./assets/reviews/Black.svg" alt="black" />
-                  <img src="./assets/reviews/stars.svg" alt="start" />
+                  <img
+                    src="./assets/reviews/Black.svg"
+                    loading="lazy"
+                    alt="black"
+                  />
+                  <img
+                    src="./assets/reviews/stars.svg"
+                    loading="lazy"
+                    alt="start"
+                  />
                 </div>
                 <p>
                   I had the pleasure of working with ABC Realty to find my dream
@@ -389,21 +555,44 @@
                 </p>
                 <div class="card_user-info">
                   <div class="card_user-info-content">
-                    <img src="./assets/reviews/user.svg" alt="user icon" />
+                    <img
+                      src="./assets/reviews/user.svg"
+                      loading="lazy"
+                      alt="user icon"
+                    />
                     <div class="card_user-info-text">
                       <h5>Sarah M.</h5>
                       <p>Property consultation</p>
                     </div>
                   </div>
-                  <img src="./assets/reviews/check.svg" alt="checkbox" />
+                  <img
+                    src="./assets/reviews/check.svg"
+                    loading="lazy"
+                    alt="checkbox"
+                  />
                 </div>
               </div>
             </div>
             <div class="swiper-pagination"></div>
           </div>
+          <div class="arrows-second">
+            <div class="arrow swiper-button-prev">
+              <img
+                src="./assets/svg/arrow-toleft.svg"
+                loading="lazy"
+                alt="arrow to left"
+              />
+            </div>
+            <div class="arrow swiper-button-next">
+              <img
+                src="./assets/svg/arrow-toright.svg"
+                loading="lazy"
+                alt="arrow to right"
+              />
+            </div>
+          </div>
         </div>
       </div>
-
       <!-- reviews end -->
 
       <!-- courses start -->
@@ -412,94 +601,124 @@
 
         <div class="courses_wrapper">
           <div class="one_course">
-            <img src="./assets/courses/photo-1.svg" alt="course image" />
+            <img
+              src="./assets/courses/photo-1.svg"
+              loading="lazy"
+              alt="course image"
+            />
             <h5>Название курса</h5>
             <div class="course_line"></div>
             <div class="one_course_content">
               <div class="one_course_content-item">
                 <div class="content-item-left">
-                  <img src="./assets/courses/Calendar.svg" alt="" />
+                  <img
+                    src="./assets/courses/Calendar.svg"
+                    loading="lazy"
+                    alt=""
+                  />
                   <h6>Длительность курса</h6>
                 </div>
                 <p>6 месяцев</p>
               </div>
               <div class="one_course_content-item">
                 <div class="content-item-left">
-                  <img src="./assets/courses/Calendar.svg" alt="" />
+                  <img
+                    src="./assets/courses/Calendar.svg"
+                    loading="lazy"
+                    alt=""
+                  />
                   <h6>Дата начала курса</h6>
                 </div>
                 <p>12.01.24</p>
               </div>
               <div class="one_course_content-item">
                 <div class="content-item-left">
-                  <img src="./assets/courses/Users.svg" alt="" />
-                  <h6 style="color: rgba(27, 28, 31, 1); font-size: 16px">
-                    Учеников в группе
-                  </h6>
+                  <img src="./assets/courses/Users.svg" loading="lazy" alt="" />
+                  <h6 id="students_count">Учеников в группе</h6>
                 </div>
-                <p style="color: rgba(27, 28, 31, 1); font-size: 16px">10</p>
+                <p id="students_count-text">10</p>
               </div>
             </div>
           </div>
 
           <div class="one_course">
-            <img src="./assets/courses/photo-2.svg" alt="course image" />
+            <img
+              src="./assets/courses/photo-2.svg"
+              loading="lazy"
+              alt="course image"
+            />
             <h5>Название курса</h5>
             <div class="course_line"></div>
             <div class="one_course_content">
               <div class="one_course_content-item">
                 <div class="content-item-left">
-                  <img src="./assets/courses/Calendar.svg" alt="" />
+                  <img
+                    src="./assets/courses/Calendar.svg"
+                    loading="lazy"
+                    alt=""
+                  />
                   <h6>Длительность курса</h6>
                 </div>
                 <p>6 месяцев</p>
               </div>
               <div class="one_course_content-item">
                 <div class="content-item-left">
-                  <img src="./assets/courses/Calendar.svg" alt="" />
+                  <img
+                    src="./assets/courses/Calendar.svg"
+                    loading="lazy"
+                    alt=""
+                  />
                   <h6>Дата начала курса</h6>
                 </div>
                 <p>12.01.24</p>
               </div>
               <div class="one_course_content-item">
                 <div class="content-item-left">
-                  <img src="./assets/courses/Users.svg" alt="" />
-                  <h6 style="color: rgba(27, 28, 31, 1); font-size: 16px">
-                    Учеников в группе
-                  </h6>
+                  <img src="./assets/courses/Users.svg" loading="lazy" alt="" />
+                  <h6 id="students_count">Учеников в группе</h6>
                 </div>
-                <p style="color: rgba(27, 28, 31, 1); font-size: 16px">10</p>
+                <p id="students_count-text">10</p>
               </div>
             </div>
           </div>
 
           <div class="one_course">
-            <img src="./assets/courses/photo-3.svg" alt="course image" />
+            <img
+              src="./assets/courses/photo-1.svg"
+              loading="lazy"
+              alt="course image"
+            />
             <h5>Название курса</h5>
             <div class="course_line"></div>
             <div class="one_course_content">
               <div class="one_course_content-item">
                 <div class="content-item-left">
-                  <img src="./assets/courses/Calendar.svg" alt="" />
+                  <img
+                    src="./assets/courses/Calendar.svg"
+                    loading="lazy"
+                    alt=""
+                  />
                   <h6>Длительность курса</h6>
                 </div>
                 <p>6 месяцев</p>
               </div>
               <div class="one_course_content-item">
                 <div class="content-item-left">
-                  <img src="./assets/courses/Calendar.svg" alt="" />
+                  <img
+                    src="./assets/courses/Calendar.svg"
+                    loading="lazy"
+                    alt=""
+                  />
                   <h6>Дата начала курса</h6>
                 </div>
                 <p>12.01.24</p>
               </div>
               <div class="one_course_content-item">
                 <div class="content-item-left">
-                  <img src="./assets/courses/Users.svg" alt="" />
-                  <h6 style="color: rgba(27, 28, 31, 1); font-size: 16px">
-                    Учеников в группе
-                  </h6>
+                  <img src="./assets/courses/Users.svg" loading="lazy" alt="" />
+                  <h6 id="students_count">Учеников в группе</h6>
                 </div>
-                <p style="color: rgba(27, 28, 31, 1); font-size: 16px">10</p>
+                <p id="students_count-text">10</p>
               </div>
             </div>
           </div>
@@ -526,7 +745,7 @@
             <button>Получить консультацию</button>
           </div>
           <div class="consultation_right">
-            <img src="./assets/study-table.svg" alt="" />
+            <img src="./assets/study-table.svg" loading="lazy" alt="" />
           </div>
         </div>
       </div>
@@ -556,16 +775,28 @@
                 target="_blank"
                 href="https://instagram.com/makers.bootcamp.id?igshid=MzRlODBiNWFlZA=="
               >
-                <img src="./assets/svg/instagram.svg" alt="instagram icon" />
+                <img
+                  src="./assets/svg/instagram.svg"
+                  loading="lazy"
+                  alt="instagram icon"
+                />
               </a>
               <a
                 target="_blank"
                 href="https://www.youtube.com/@makersbootcamp224"
               >
-                <img src="./assets/svg/youtube.svg" alt="youtube icon" />
+                <img
+                  src="./assets/svg/youtube.svg"
+                  loading="lazy"
+                  alt="youtube icon"
+                />
               </a>
               <a target="_blank" href="https://www.facebook.com/makerskg/">
-                <img src="./assets/svg/facebook.svg" alt="facebook icon" />
+                <img
+                  src="./assets/svg/facebook.svg"
+                  loading="lazy"
+                  alt="facebook icon"
+                />
               </a>
             </div>
           </div>
