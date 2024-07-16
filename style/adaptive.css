@@ -498,8 +498,15 @@
   }
 
   .swiper {
-    left: 44%;
-    width: 58%;
+    left: 46%;
+    width: 56%;
+  }
+  .reciews_block {
+    gap: 12px;
+  }
+  .one_course {
+    width: 56%;
+    margin-bottom: 30px;
   }
   /* footer */
   .footer_left img {
@@ -510,10 +517,6 @@
   }
   .adaptive_footer_span {
     display: block;
-  }
-  .one_course {
-    width: 48%;
-    margin-bottom: 30px;
   }
 }
 

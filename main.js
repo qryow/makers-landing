@@ -37,3 +37,10 @@ document.getElementById("close-btn").addEventListener("click", function () {
   document.getElementById("sidebar_wrapper").classList.remove("open");
   document.body.classList.remove("no-scroll");
 });
+
+document
+  .getElementById("sidebar_wrapper")
+  .addEventListener("click", function () {
+    document.getElementById("sidebar_wrapper").classList.remove("open");
+    document.body.classList.remove("no-scroll");
+  });
