@@ -30,17 +30,17 @@ const swiper = new Swiper(".swiper", {
 
 document.getElementById("burger-menu").addEventListener("click", function () {
   document.getElementById("sidebar_wrapper").classList.add("open");
-  document.body.classList.add("no-scroll");
+  document.body.style.overflow = "hidden";
 });
 
 document.getElementById("close-btn").addEventListener("click", function () {
   document.getElementById("sidebar_wrapper").classList.remove("open");
-  document.body.classList.remove("no-scroll");
+  document.body.style.overflow = "auto";
 });
 
 document
   .getElementById("sidebar_wrapper")
   .addEventListener("click", function () {
     document.getElementById("sidebar_wrapper").classList.remove("open");
-    document.body.classList.remove("no-scroll");
+    document.body.style.overflow = "auto";
   });
